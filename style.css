@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #25003e;
+  color: #ffffff;
+  text-align: center;
+}
+
+header {
+  padding: 40px 20px;
+  background: #a100ff;
+}
+
+.logo {
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  color: #ff4dcc;
+  margin-bottom: 20px;
+}
+
+.cta-buttons .btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 25px;
+  font-size: 16px;
+  text-decoration: none;
+  background: #ffde00;
+  color: #000;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.cta-buttons .btn:hover {
+  background: #ffe94d;
+}
+
+.btn.disabled {
+  background: #666;
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+.about p, .tokenomics ul, .roadmap ol {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.tokenomics ul, .roadmap ol {
+  list-style: none;
+  padding: 0;
+}
+
+.tokenomics li, .roadmap li {
+  margin: 10px 0;
+}
+
+footer {
+  padding: 20px;
+  background: #0f001e;
+  color: #bbb;
+}
+
+footer a {
+  color: #ff4dcc;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
